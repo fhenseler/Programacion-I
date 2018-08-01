@@ -1,0 +1,29 @@
+Crear array socios (socios.c)
+
+new_socio(nombre, apellido...) GENERICO
+{
+    malloc
+    set	nombre, apellido... (validaciones - tambien en interfaz)
+
+}
+Get (campos)
+Set
+
+SOLO LA INTERFAZ INTERACTUA CON EL USUARIO!!!
+controller_alta (en nuevo archivo - CONTROLLER.C (abm) y meterlos en la opcion del menu)
+Pedir datos usuario en la interfaz y PASARLOS COMO PARAMETRO a la funcion controller_alta
+Hacer un New Socio
+Cargar datos en el socio nuevo
+Add socio al array de socios
+
+controller_alta(array, nombre, apellido, edad)
+{
+   newSocio 
+   array_add	
+}
+
+CONTROLLER LLAMA AL MENU, Y EL MAIN LLAMA SOLAMENTE A CONTROLLER
+
+data.c -> archivo binario
+
+TRAER ABM HECHO 8/11!!!

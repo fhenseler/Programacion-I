@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1460746297 source:/home/mauro/Documentos/workspace_c/utest/Input/input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1460745793 source:/home/mauro/Documentos/workspace_c/utest/Input/main.c
+	<stdio.h>
+	<stdlib.h>
+	"inc/input.h"
+
+1460746095 /home/mauro/Documentos/workspace_c/utest/Input/inc/input.h
+
+1473948568 source:c:\users\fede\desktop\programación\programación i\funciones\biblioteca input\input\main.c
+	<stdio.h>
+	<stdlib.h>
+	"inc/input.h"
+
+1473914077 c:\users\fede\desktop\programación\programación i\funciones\biblioteca input\input\inc\input.h
+
+1473948529 source:c:\users\fede\desktop\programación\programación i\funciones\biblioteca input\input\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1473948763 source:d:\escritorio\programación 17\apuntes 1er parcial\funciones practica\biblioteca input\input\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1473948568 source:d:\escritorio\programación 17\apuntes 1er parcial\funciones practica\biblioteca input\input\main.c
+	<stdio.h>
+	<stdlib.h>
+	"inc/input.h"
+
+1473914077 d:\escritorio\programación 17\apuntes 1er parcial\funciones practica\biblioteca input\input\inc\input.h
+

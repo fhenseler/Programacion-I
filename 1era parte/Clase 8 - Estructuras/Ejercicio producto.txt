@@ -1,0 +1,76 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct
+{
+    char nombre[51];
+    char descripcion[100];
+    float precio;
+    int estaCargado;
+
+}eProducto;
+
+void inicializarArray(eProducto array[],int len){
+    int i;
+    for (i=0; i<len; i++){
+        array [i].estaCargado=0;
+    }
+
+}
+
+int validarNombre (eProducto array[],int len){
+    int retorno=1;
+    return retorno;
+}
+
+int validarDescripcion (eProducto array[],int len){
+    int retorno=1;
+    return retorno;
+}
+
+int validarPrecio (eProducto array[],int len){
+    int retorno=1;
+    return retorno;
+}
+
+int cargarDatos (eProducto array[],int len, int indice){
+        char auxiliarNombre[4096];
+        char auxiliarDescripcion[4096];
+        char auxiliarPrecio[4096];
+        
+        printf("Ingrese nombre del producto: /n");
+        fgets(auxiliarNombre, 4096, stdin);
+        auxiliarNombre [4095]='\0';
+        if (validarNombre(array, 200) != 1){
+            break;
+        }
+        
+        printf("Ingrese descripcion del producto: /n");
+        fgets(auxiliarDescripcion, 4096, stdin);
+        auxiliarDescripcion [4095]='\0';
+        if (validarDescripcion(array, 200) != 1);{
+            break;
+        }
+        
+        printf("Ingrese precio del producto: /n");
+        fgets(auxiliarPrecio, 4096, stdin);
+        auxiliarPrecio [4095]='\0';
+        if (validarPrecio(array, 200) != 1){
+            break;
+        }
+        atof(auxiliarPrecio);
+        
+        strncpy(array[indice].nombre, auxiliarNombre, 200);
+        strncpy(array[indice].descripcion, auxiliarDescripcion, 200);
+        array[indice].precio= auxiliarPrecio;
+}
+
+
+int main()
+{
+    eProducto arrayProductos[200];
+    inicializarArray(arrayProductos, 200);
+    
+    return 0;
+}

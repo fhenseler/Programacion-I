@@ -1,0 +1,17 @@
+DATA MANAGER
+Funciones
+dm_readAll(listaSocios); -> LEE TODO DESDE EL ARCHIVO
+dm_saveAll(listaSocios); -> GUARDA TODO EN EL ARCHIVO
+
+ARCHIVO BINARIO!!! Para leerlos, no como un array sino socio x socio (GET) e ir escribiendolos
+
+LEER
+Auxiliar Socio, cargarle los datos levantados desde el archivo, hago un new, setters y agrego al arraylist (add)
+MIRAR DIAGRAMA!
+
+CLASE Q VIENE
+CREAR NUEVA ENTIDAD -> SERVICIO (ID SERV, DESCRIPCION, ESTADO)
+ABM Y PERSISTENCIA DE DATOS, Y METERLA DENTRO DEL MODELO
+SE TIENE Q COMPORTAR IGUAL Q SOCIO (NO ROBAR DATOS, SI USARLO PARA VERIFICAR)
+
+ABRIR PROYECTO DE AYER -> COPIAR EXCEPTO EL .A TODOS LOS ARCHIVOS Y REEMPLAZAR

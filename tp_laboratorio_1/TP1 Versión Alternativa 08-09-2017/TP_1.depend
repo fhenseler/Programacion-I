@@ -1,0 +1,127 @@
+# depslib dependency file v1.0
+1472086550 source:d:\federico henseler\tp 1 (2-9-2016)\tp_1_cascara\tp_1_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1472086625 source:d:\federico henseler\tp 1 (2-9-2016)\tp_1_cascara\tp_1_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"funciones.c"
+
+1472085517 d:\federico henseler\tp 1 (2-9-2016)\tp_1_cascara\tp_1_cascara\funciones.h
+
+1472086809 d:\federico henseler\tp 1 (2-9-2016)\tp_1_cascara\tp_1_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1472321526 source:c:\users\fede\desktop\programación\programación i\tp 1 (2-9-2016) en clase\tp_1_cascara\tp_1_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1472319929 c:\users\fede\desktop\programación\programación i\tp 1 (2-9-2016) en clase\tp_1_cascara\tp_1_cascara\funciones.h
+
+1472319935 source:c:\users\fede\desktop\programación\programación i\tp 1 (2-9-2016) en clase\tp_1_cascara\tp_1_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1472132445 c:\users\fede\desktop\programación\programación i\tp 1 (2-9-2016) en clase\tp_1_cascara\tp_1_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1472580012 source:c:\users\fede\desktop\programación\programación i\tp 1 (2-9-2016) x\tp_1_cascara\tp_1_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1473182341 c:\users\fede\desktop\programación\programación i\tp 1 (2-9-2016) x\tp_1_cascara\tp_1_cascara\funciones.h
+
+1472580490 source:c:\users\fede\desktop\programación\programación i\tp 1 (2-9-2016) x\tp_1_cascara\tp_1_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1473311926 source:c:\users\fede\desktop\programación\programación i\tp 1 (2-9-2016)\tp_1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1473311879 c:\users\fede\desktop\programación\programación i\tp 1 (2-9-2016)\tp_1\funciones.h
+
+1473312959 source:c:\users\fede\desktop\programación\programación i\tp 1 (2-9-2016)\tp_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1473395053 source:c:\users\fede\desktop\tp 1 (2-9-2016)\tp_1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1473396216 c:\users\fede\desktop\tp 1 (2-9-2016)\tp_1\funciones.h
+
+1473395682 source:c:\users\fede\desktop\tp 1 (2-9-2016)\tp_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1473441191 source:c:\users\fede\desktop\tp 1 federico henseler\tp_1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+
+1473439732 source:c:\users\fede\desktop\tp 1 federico henseler\tp_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1473442713 c:\users\fede\desktop\tp 1 federico henseler\tp_1\funciones.h
+
+1491429004 source:d:\escritorio\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1491427860 d:\escritorio\tp1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1491429733 d:\escritorio\tp1\funciones.h
+
+1491432125 source:d:\escritorio\tp1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"funciones.h"
+
+1491435359 source:d:\escritorio\github\tp_laboratorio_1\tp1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"funciones.h"
+
+1491435359 d:\escritorio\github\tp_laboratorio_1\tp1\funciones.h
+
+1491435388 source:d:\escritorio\github\tp_laboratorio_1\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1504912285 source:d:\escritorio\tp1 optimizado 08-09-2017\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"funciones.h"
+
+1504912265 d:\escritorio\tp1 optimizado 08-09-2017\funciones.h
+
+1504912242 source:d:\escritorio\tp1 optimizado 08-09-2017\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

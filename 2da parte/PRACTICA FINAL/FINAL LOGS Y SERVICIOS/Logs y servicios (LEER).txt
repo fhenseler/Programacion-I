@@ -1,0 +1,102 @@
+FINAL LOGS Y SERVICIOS
+
+
+Entidad servicios y entidad logs (2) NO CREAR NUEVAS ENTIDADES (ULTIMO RECURSO) - RESOLVER TODO CON FUNCIONES
+CLAVE DEFINIR LAS ENTIDADES BIEN!!
+
+1) LEER LOGS
+
+Modelo datos: logEntry - servicio (ENTIDADES)
+
+Arraylist - Arraylist
+[        ]  [        ]
+[        ]  [        ]
+[        ]  [        ]
+[        ]  [        ]
+[        ]  [        ]
+
+Las relaciono mediante ID servicio
+
+Nueva entidad -> idTipo (id - nombre) para poder relacionarlos
+En estructura servicio agregar idTipo
+
+Para leer -> reciclo funcion dm_readAll() del MVC 
+
+fopen("logs.txt", "r")
+
+fread NO porque es binario -> FSCANF - Cantidad de % == cant variables que traigo
+
+2) PROCESAR INFORMACION
+
+Log -> campo gravedad 
+Recorro lista y analizo log x log, mediante un get y funcion comparar(log) evaluando cada
+condicion (3 ifs, 1 para cada condicion)
+
+Si es < a 3, no hacer nada dentro de ese if.
+Si es 3, add en una nueva lista filtrada creada antes del bucle
+(nombre ejemplo: listaGravedad3)
+Si está entre 4 y 7, se puede hacer un print directamente (opcion 1) o guardar en otra lista filtrada y después imprimir (lista 4-7) (opc 2)
+Si es > 7, hacer un add en otra lista nueva y despues guardar en archivo (lista>7)
+
+Función 
+comparar(log, listaG3, lista4-7, lista>7)
+{
+
+dm_saveAll(listaG3, listaServicios);
+vista_print(lista4-7, listaServicios);
+dm_saveAll(lista>7, listaServicios);
+
+}
+
+FORMATO
+Fecha   Hora   NOMBRE SERVICIO   Mensaje de error   Gravedad
+
+En el formato, me falta el NOMBRE SERVICIO (solo tengo el ID) entonces tengo que relacionar las entidades.
+
+Función (ARCHIVO SERVICIOS)
+Servicio* findNameById(arrayList, idServicio) -> RESUELVE LA RELACION!!!!! si hay 3, hacer otra función parecida
+{
+   
+   bucle:
+   log <- get()
+   printf("%s; %s; %s; %s; %d; )
+   get
+   serv* s = serv_find..(lista, getIdServicio(log), )
+   s = getNombre() 	
+}
+
+
+3) INFORMES
+
+SERVICIO QUE TIENE MÁS FALLOS
+
+opcion 1 - ITERAR LISTA SERVICIOS (no hacer doble for)
+
+{	
+	int max = -1
+	bucle: 
+	
+	servicio <- getCantFallos(servicio)
+	
+	if(c > max)
+	{
+	    max = c
+	}
+
+}
+
+Función 
+int calcularCantFallos(arrayLogs, idServicio)
+{
+	contador = 0
+	bucle:
+	log <- get()
+	if(log->idServicio == log)
+	{
+	    contador++;
+	}
+}
+
+
+CANTIDAD FALLOS SEGUN VALOR DE GRAVEDAD
+Un contador para cada valor, iterar y sumarle a los contadores

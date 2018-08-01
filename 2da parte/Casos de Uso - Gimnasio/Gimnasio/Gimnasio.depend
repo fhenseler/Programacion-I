@@ -1,0 +1,123 @@
+# depslib dependency file v1.0
+1509669153 source:d:\clasesprog\casos de uso\gimnasio\interfaz.c
+	<stdio.h>
+	<stdlib.h>
+	"Interfaz.h"
+	"Validar.h"
+	"ArrayList.h"
+
+1509668728 d:\clasesprog\casos de uso\gimnasio\interfaz.h
+
+1509666549 source:d:\clasesprog\casos de uso\gimnasio\socios.c
+	<stdio.h>
+	<stdlib.h>
+	"Socios.h"
+
+1509666549 d:\clasesprog\casos de uso\gimnasio\socios.h
+
+1509667108 source:d:\clasesprog\casos de uso\gimnasio\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1509056334 d:\clasesprog\casos de uso\gimnasio\arraylist.h
+
+1509669152 source:d:\clasesprog\casos de uso\gimnasio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Interfaz.h"
+	"Socios.h"
+	"ArrayList.h"
+
+1509666549 d:\clasesprog\casos de uso\gimnasio\socios.c
+	<stdio.h>
+	<stdlib.h>
+	"Socios.h"
+
+1509667829 d:\clasesprog\casos de uso\gimnasio\interfaz.c
+	<stdio.h>
+	<stdlib.h>
+	"Interfaz.h"
+
+1509668728 source:d:\clasesprog\casos de uso\gimnasio\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+
+1509668727 d:\clasesprog\casos de uso\gimnasio\validar.h
+
+1509747027 source:d:\escritorio\clasesprog\casos de uso\gimnasio\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1509104087 d:\escritorio\clasesprog\casos de uso\gimnasio\arraylist.h
+
+1509676556 source:d:\escritorio\clasesprog\casos de uso\gimnasio\interfaz.c
+	<stdio.h>
+	<stdlib.h>
+	"Interfaz.h"
+	"Validar.h"
+	"ArrayList.h"
+
+1509676556 d:\escritorio\clasesprog\casos de uso\gimnasio\interfaz.h
+
+1509853585 d:\escritorio\clasesprog\casos de uso\gimnasio\validar.h
+
+1509840537 source:d:\escritorio\clasesprog\casos de uso\gimnasio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Controller.h"
+
+1510307790 d:\escritorio\clasesprog\casos de uso\gimnasio\socios.h
+	"ArrayList.h"
+
+1510090581 source:d:\escritorio\clasesprog\casos de uso\gimnasio\socios.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Socios.h"
+
+1509853585 source:d:\escritorio\clasesprog\casos de uso\gimnasio\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+
+1510090593 source:d:\escritorio\clasesprog\casos de uso\gimnasio\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Controller.h"
+
+1510089979 d:\escritorio\clasesprog\casos de uso\gimnasio\controller.h
+	"Interface.h"
+
+1510307859 d:\escritorio\clasesprog\casos de uso\gimnasio\interface.h
+	"Socios.h"
+	"ArrayList.h"
+
+1510307890 source:d:\escritorio\clasesprog\casos de uso\gimnasio\interface.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Interface.h"
+	"Validar.h"
+	"Controller.h"
+
+1509729105 d:\escritorio\clasesprog\casos de uso\gimnasio\socios.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Socios.h"
+	"ArrayList.h"
+
+1509807081 d:\escritorio\clasesprog\casos de uso\gimnasio\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Controller.h"
+

@@ -1,0 +1,35 @@
+Se debe desarrollar un sistema (en ANSI C) de gestion de programadores.
+En este sistema existiran programadores que podran pertenecer a 3 categorias distintas
+(Junior, Semisenior y Senior), las cuales tendran su respectivo pago por hora.
+
+Mediante el sistema se podra asignar cada programador a distintos proyectos. Un
+programador puede ser asignado a varios proyectos (incluyendo las horas de trabajo
+en los mismos) y un proyecto puede ser desarrollado por varios programadores. Las 
+categorias tienen la siguiente informacion: idCategoria, descripcion, pagoxhora.
+Cada proyecto tiene: idProyecto, nombre.
+
+1- Alta del programador: Se piden los datos del programador (ID, nombre, apellido,
+idCategoria).
+
+2- Modificar: Se ingresa el ID del programador, y se modifican sus datos.
+
+3- Baja: Se ingresa el ID y lo elimina junto a los proyectos donde esta asignado.
+
+4- Asignar programador a proyecto: Seleccionar programador del listado y asignarlo 
+a un proyecto, indicando las horas que debera trabajar.
+
+5- Listado de programadores: Se mostrara un listado de todos los programadores indicando
+su ID, nombre y apellido, descripcion de la categoria y una lista de todos los proyectos
+asignados junto a la suma a cobrar por cada asignacion (Ordenar por id de programador).
+
+6- Listado de proyectos: Mostrar listado con ID y nombre de proyecto, y la cantidad de
+programadores de cada categoria asignados al mismo.
+
+7- Listar proyectos del programador: Mostrar la lista de programadores y al seleccionar un ID
+se mostraran los proyectos de los cuales forma parte.
+
+8- Proyecto demandante: Indicar cual es el proyecto con mas programadores asignados.
+
+NOTA 0: MAX 50 programadores y 1000 proyectos.
+NOTA 1: lib.c y lib.h
+NOTA 2: DOXYGEN 

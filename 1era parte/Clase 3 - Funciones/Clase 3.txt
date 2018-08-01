@@ -1,0 +1,14 @@
+git status - diferencias del repo local contra el repo remoto
+git log - cuales son las "fotos" (commits) que vengo sacando del repo
+
+FUNCIONES
+Hacer que mi función retorne una variable en vez de un valor fijo.
+
+#define -> por ahora lo usamos para cantidades.
+
+Función int main() -> Es donde está seteado el puntero para iniciar el programa. Recibe parámetros desde afuera del programa.
+
+En una función que recibe un puntero como parámetro (ej.int* num) estoy modificando el valor que está en el main al llamarla, no el valor local de la variable.
+
+Hacer funciones que hagan SÓLO lo que debe hacer. Ej: en una función dividir NO PONER PRINTF. Sólo dividir y retornar el resultado.
+Validar datos en el main ANTES de llamar a la función.		

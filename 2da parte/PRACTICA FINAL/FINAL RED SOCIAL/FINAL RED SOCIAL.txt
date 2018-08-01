@@ -1,0 +1,57 @@
+2 arch entrada, 1 arch salida con entidades relacionadas
+1 ARRAYLIST POR CADA ARCHIVO QUE TENGAMOS
+ABRIR ARCHIVOS CON NOTEPAD!!!
+
+Entidades: Post y Usuarios
+Post: id_mensaje, mensaje, popularidad_mensaje
+Usuario: nick, popularidad_usuario
+
+(Ignoramos que los archivos tienen que estar ordenados)
+
+POST
+{
+   int idMensaje
+   char mensaje[2000]
+   int pop
+   int idUsuario
+}
+
+USUARIO
+{
+   int idUsuario
+   char nick[100]
+   int pop
+}
+   
+Archivo "feed" contiene los datos de ambas entidades relacionadas (POST tiene idUsuario)
+
+Iteramos POST, que tiene casi todos los campos que necesitamos, y mediante una función obtenemos los campos de Usuario que nos faltan
+
+Función
+func(listPost, listUsuario)
+{
+    bucle(post):
+    post <- get()
+    Usuario u = findById(listaU, idU)
+    fprintf("% % % %, )
+    
+}
+
+Función
+Usuario* findById(listaUsuarios, idUsuario)
+{
+
+}
+
+
+
+ORDENAMIENTO - Un criterio está en una entidad y el otro en otra entidad.
+
+1) Las publicaciones de los usuarios mas populares deben ser mostradas en
+primer lugar,
+2) Ante igualdad de popularidad de los usuarios se debe ordenar según la
+popularidad de las publicaciones
+
+CREAMOS 3ERA ENTIDAD QUE TENGA TODOS LOS DATOS PARA PODER ORDENAR POR 2 CRITERIOS.
+	
+

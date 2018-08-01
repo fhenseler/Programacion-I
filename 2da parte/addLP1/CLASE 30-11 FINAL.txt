@@ -1,0 +1,47 @@
+entitybuilder.exe
+
+final maquinarias
+2 entidades cliente - maquinarias
+
+cliente
+int id
+char nombre
+char apellido
+char dni
+int estado
+
+alquiler
+int idcliente
+int idequipo
+int idoperario
+int tiemporeal
+int tiempoestimado
+int estado
+
+cliente
+ESTADO ACTIVO/INACTIVO
+
+alquiler
+ID EQUIPO #defines
+EL TIEMPO ESTIMADO TIENE QUE VER CON EL ALTA (Nuevo alquiler)
+EL TIEMPO REAL TIENE QUE VER CON LA MODIFICACION (Fin alquiler)
+ESTADO ALQUILADO/FINALIZADO
+
+****************************************************************************************
+
+D:\clasesprog\PRACTICA FINAL\addLP1-master\entityBuilder\bin\Release>entityBuilder.exe
+
+ABRIR EL PROYECTO ENTITYBUILDER, COMPILAR, VA A CREAR UN EJECUTABLE EN RELEASE, 
+IR AL PATH DEL EJECUTABLE Y EJECUTARLO POR MEDIO DE CMD.
+
+D:\clasesprog\PRACTICA FINAL\addLP1-master\entityBuilder\bin\Release>entityBuild
+er.exe Cliente int idCliente char nombre[50] char apellido[50] char dni[50] int estado
+
+CMD->BOTON DERECHO EN LA PARTE AZUL->CAMBIAR ALTO DEL BUFFER 1000+
+
+COPIAR TODO EN UN ARCHIVO (ALQUILER.C.H, CLIENTE.C.H)
+
+DATA MANAGER BINARIO Y TEXTO!!! HACER
+
+****************************************************************************************
+

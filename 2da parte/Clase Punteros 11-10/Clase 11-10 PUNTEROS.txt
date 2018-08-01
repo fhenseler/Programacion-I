@@ -1,0 +1,122 @@
+Inclusiones cruzadas: Incluir el .h de B en el .h de A si no compila. Sólo 1. Si incluyo CRUZADO (A->B B->A) NO COMPILA.
+Para hacer esto necesito un tercer archivo.
+
+PUNTEROS: Tengo un puntero a entero, para poder darle uso lo casteo a otro tipo (int *),
+lo que me permite no sólo guardar el valor de la dirección de memoria donde apunta si no
+acceder a esa posición de memoria para leer y escribir datos (mediante el *). 
+DIFERENCIA ENTRE VARIABLE Y PUNTERO.  int* punteroInt = (int*) p;
+TODOS LOS PUNTEROS OCUPAN EL MISMO ESPACIO EN MEMORIA.
+
+MUY IMPORTANTE EL TIPO DE PUNTERO, para ver cuánto escribe en la posición de memoria a la
+que apunta. Si tengo un DOUBLE, el puntero tiene que ser DOUBLE. Si no, se pisan los datos
+o se lee como basura.
+
+Mediante punteros, puedo alterar el valor de una variable que está dentro de
+un scope determinado desde otro scope (ej. desde una función hacia el main).
+Esto resuelve el problema de devolver 1 sólo valor (return) porque puedo modificar
+varios valores desde una sola función.
+
+
+STRINGS - Si defino el tamaño, se escribe en la zona de variables, si no, es simplemente
+un puntero al array. (STACK & HEAP)
+
+
+STACK (MODIFICABLE - RAM)
+
+Cuando un programa es ejecutado, a cada hilo se le asigna una cantidad limitada de espacio 
+en el Stack. El Stack almacena la información usada por el programa incluyendo el byte-code 
+ejecutado por el procesador. Se trata de un fragmento de memoria donde se van apilando 
+linealmente (estructura LIFO) las distintas funciones ejecutadas así como las variables 
+locales de cada una de ellas. El modo en como se asignara la memoria en el Stack, se define
+durante el proceso de compilado.
+Algunas consideraciones y aspectos sobre el Stack:
+
+Las variables almacenadas en el Stack (o variables automáticas) son almacenadas directamente a esta memoria.
+Su acceso es muy rápido.
+Es liberada al terminar la ejecución.
+Fragmentos grandes de memoria, como arrays  de gran envergadura, no deberían ser almacenados
+en el Stack, para prevenir desbordamientos del mismo (Stack Overflow).
+Las variables almacenadas en el Stack solamente son accesibles desde el bloque de código 
+donde fueron declaradas.
+
+
+HEAP (DATOS FIJOS - CODIGO - MEMORIA DINAMICA)
+
+El Heap a diferencia del Stack, no posee ninguna estructura de asignación de espacios 
+(a diferencia del modelo LIFO en el Stack), y su tamaño se ve únicamente limitado por
+el tamaño de la memoria virtual (RAM y espacio SWAP). Es asignada al vuelo, durante 
+la ejecución del programa (mediante malloc() por ejemplo), sin garantía de que los bloques
+otorgados sean contiguos.
+
+La manipulación del  Heap (asignacion, lectura, escritura) es mas lenta que la del Stack.
+Esta memoria se mantiene en uso hasta que se libera explicitamente por el programa. 
+(o es liberada por el SO al terminar la ejecución del mismo)
+Puede ser accedida desde fuera del bloque donde fue asignada.
+En el siguiente código, la memoria para la variable x es asignada cuando main() es ejecutado,
+y permanece en memoria hasta que se llama a liberar() . Ademas como se aprecia, el valor de x 
+es asignado fuera del bloque if() donde el espacio de memoria es asignado.
+
+PROGRAM SEGMENTS - DIAGRAMA (google)
+https://gabrieletolomei.files.wordpress.com/2013/10/program_in_memory2.png
+
+NO RETORNAR DIRECCION DE MEMORIA DE UNA VARIABLE QUE ESTE EN EL STACK (VARIABLE LOCAL DE LA FUNCION)!!!
+PASAR COMO PARAMETRO LA DIRECCION DE MEMORIA Y ASIGNARLE EL VALOR DESEADO, PERO SIN RETORNARLO.
+
+
+EJERCICIO
+ESTRUCTURA -> CAMPO EDAD NOMBRE
+typedef struct S_Persona Persona;
+typedef(redefine) struct S_Persona (como)Persona;
+
+typedef int numero -> REDEFINO LA PALABRA INT -> AHORA SE LLAMA NUMERO.
+Sirve para crear mis propios tipos de datos.  xxxx_t
+
+int cargarPersona(sPersona* pPersona)
+{
+    return i;
+}
+
+void printPersona(Persona pPersona)
+{
+
+}
+
+DIFERENCIA (sPersona* pPersona) y (Persona pPersona). A la primera le paso un puntero a la estructura,
+y la segunda es una estructura definida localmente. 
+SIEMPRE TRABAJAR CON PUNTEROS PORQUE AHORRO MUCHISIMO ESPACIO EN MEMORIA. (USAR (sPersona* pPersona))
+
+USAR OPERADOR FLECHA!!!  pPersona->edad es equivalente a (*pPersona).edad (USAR (pPersona->edad))
+
+PUNTERO A ESTRUCTURA =/= PUNTERO A TIPO DE DATO PRIMITIVO. CON PUNTEROS A ESTRUCTURA USO EL OPERADOR FLECHA.
+
+
+ARITMETICA DE PUNTEROS
+
+Al sumar 1, sumo 1 del tipo del dato del puntero que estoy incrementando.
+Cuando accedo a un valor, lo leo como el tipo de dato de mi puntero. (LAS 2 COSAS MAS IMPORTANTES DE ARITMETICA).
+
+*(p+i) es equivalente a p[i]
+
+
+Array de estructuras: puedo usar aritmética de punteros para desplazarme a través del array.
+
+Persona personas[10];
+
+int i;
+Persona* p;
+p = personas;
+
+for(i = 0; i < 10; i++)
+{
+    p->edad = i;
+    p++;
+}
+
+
+ARRAY DE PUNTEROS (MEMORIA DINAMICA)
+
+Persona* arrayPersonas[10];
+
+Persona p1;
+
+arrayPersonas[5] = &p1;

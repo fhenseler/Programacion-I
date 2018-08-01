@@ -1,0 +1,45 @@
+RELACIÓN MUCHOS A MUCHOS (Ejemplo)
+
+ALQUILER DE MÁQUINAS
+
+Estructuras: Máquinas, Clientes
+
+DATOS CLAVE: ID MAQUINA, ID CLIENTE, FLAG OCUPADO
+1 ABM por cada estructura (o hardcodeado)
+
+CLIENTES QUE QUIEREN ALQUILAR MÁQUINAS (RELACIÓN)
+Si la máquina ya está alquilada, no se puede volver a alquilar.
+Las máquinas se alquilan por cierta cantidad de días. ID CLIENTE <-> ID MÁQUINA por cierta cantidad de tiempo (ej. 5 días)
+
+La relación se hace en una tercera entidad llamada ALQUILER (ID Máquina, ID Cliente, cant. días, etc)
+Ej. La máquina 4 va a estar alquilada por el cliente 88 por 5 días.
+
+ABM de la estructura ALQUILER. Ofrecer del stock de máquinas cuál quiere alquilar (de las que no están alquiladas), y pedir el ID de cliente, y cuántos
+días quiere alquilar la máquina. 
+
+Luego, ESTADO DEL ALQUILER (EN CURSO - FINALIZADO). Permito alquilar máquinas que estén en el array de Máquinas y que no estén EN CURSO.
+Buscar en el array de alquileres y en el de máquinas.
+
+Depende las preguntas, accedo a uno o más de los arrays de estructuras para obtener la información.
+Máximo relacionar 2 entidades, o incluso 1.
+
+
+PARCIAL EMERGENCIAS
+
+Motivo más solicitado: Mostrar más de un motivo más solicitado. Puede ser que uno, dos o los tres ocurrieron más veces (empate).
+
+Recorrer array de llamadas y hacer 3 contadores distintos. Array de contadores (int), 3 elementos, el indice 0, 1 o 2 (MOTIVOS).
+
+Determinar si hay un máximo entre los 3 números (función). La función va a devolver el NÚMERO MÁXIMO. 
+INFORMAR TODOS LOS ÍNDICES QUE CONTENGAN EL NÚMERO MÁXIMO!!!!
+
+CADA ENTIDAD TIENE SU ID AUTOINCREMENTABLE.
+SI HAY UNA LLAMADA ACTIVA, NO PUEDE HABER OTRA LLAMADA ACTIVA DEL MISMO CLIENTE. (HACER FUNCIÓN)
+SÓLO CARGAR LLAMADAS EN LOS LIBRES, NO EN LAS FINALIZADAS.
+
+INFORMES
+Nombre y apellido del asociado... INFO en entidad LLAMADAS, hacer un contador de llamadas por cada usuario (mismo tamaño que el array de usuarios) dentro 
+de la función. Recorrer array de llamadas e incrementar cant. llamadas según el usuario que la realizó. En el array de contadores, llamar función que
+calcule el máximo. USAR ARRAYS TEMPORALES DENTRO DE LAS FUNCIONES.
+
+

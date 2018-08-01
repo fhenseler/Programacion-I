@@ -1,0 +1,9 @@
+Debera agregar 2 opciones de menu:
+
+
+1- Listar proyectos y calcular cuánto paga cada uno. 
+2- Listar programadores y cuánto cobra
+en total cada uno por todos sus proyectos.
+
+NOTA: Primero hacer asignaciones (punto 4), luego listar (ahi se calculan los totales, punto 5),
+luego en los puntos 6 y 7 se muestran los totales.

@@ -1,0 +1,116 @@
+# depslib dependency file v1.0
+1505351422 source:d:\clase9\main.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+	"validar.h"
+
+1505351027 d:\clase9\producto.h
+
+1505351027 source:d:\clase9\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"validar.h"
+
+1505351422 d:\clase9\validar.h
+
+1505351027 source:d:\clase9\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1505408941 source:d:\escritorio\clasesprog\clase 9_v2\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"validar.h"
+
+1505408741 d:\escritorio\clasesprog\clase 9_v2\producto.h
+
+1505408790 d:\escritorio\clasesprog\clase 9_v2\validar.h
+
+1505408926 source:d:\escritorio\clasesprog\clase 9_v2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+	"validar.h"
+
+1505409028 source:d:\escritorio\clasesprog\clase 9_v2\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1505437607 source:d:\clasesprog\clase 9 (actualizado 14-9)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+	"validar.h"
+
+1505437682 d:\clasesprog\clase 9 (actualizado 14-9)\producto.h
+
+1505426110 d:\clasesprog\clase 9 (actualizado 14-9)\validar.h
+
+1505436886 source:d:\clasesprog\clase 9 (actualizado 14-9)\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1505437572 source:d:\clasesprog\clase 9 (actualizado 14-9)\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"validar.h"
+
+1505483775 source:d:\escritorio\clasesprog\clase 9 (actualizado 14-9)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+	"validar.h"
+
+1505481657 d:\escritorio\clasesprog\clase 9 (actualizado 14-9)\producto.h
+
+1505481288 d:\escritorio\clasesprog\clase 9 (actualizado 14-9)\validar.h
+
+1505483764 source:d:\escritorio\clasesprog\clase 9 (actualizado 14-9)\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"validar.h"
+
+1505483587 source:d:\escritorio\clasesprog\clase 9 (actualizado 14-9)\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1505483775 source:d:\escritorio\clasesprog\clase 9 (actualizado 15-9)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+	"validar.h"
+
+1505495571 d:\escritorio\clasesprog\clase 9 (actualizado 15-9)\producto.h
+
+1505481288 d:\escritorio\clasesprog\clase 9 (actualizado 15-9)\validar.h
+
+1505484088 source:d:\escritorio\clasesprog\clase 9 (actualizado 15-9)\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"validar.h"
+
+1505483587 source:d:\escritorio\clasesprog\clase 9 (actualizado 15-9)\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+

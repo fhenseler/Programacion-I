@@ -1,0 +1,9 @@
+Interacción MVC (9) - CORREGIDO EN CLASE
+
+- Rectángulos para las conexiones entre flechas (completar en validaciones).
+- Corregir los returns (0-1??) aclarar que devuelve un dato válido para dar de alta.
+- 3 datos pasados x usuario, 1 "Preppeado" (estado), 1 calculado x el controller (id).
+- Se le pasan los 5 datos al socio, y se agrega el socio a la lista.
+
+Controller -> vista (printf) -> usuario para mostrarle información al usuario.
+

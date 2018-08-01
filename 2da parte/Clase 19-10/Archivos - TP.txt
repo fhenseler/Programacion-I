@@ -1,0 +1,51 @@
+MODO BINARIO
+fwrite(void *estructura o *array de estructuras, int size - sizeof(estructura), int numero de elementos, FILE* stream);
+fread
+
+Cada vez que doy un alta, usar una función para copiar al archivo el nuevo item. (UNA PARA LEER Y OTRA PARA ESCRIBIR DATOS EN EL ARCHIVO) FWRITE FREAD
+
+Sirve para cualquier tipo de archivo, depende el modo de abrirlo.
+
+Ejemplo: (void arrayFloat, sizeof(arrayFloat), 5, stream);
+DIFERENCIAR size de la estructura y cantidad de estructuras (elementos) que quiero escribir.
+NOTA: Puede ser cualquier tipo de dato, no solo estucturas.
+
+En windows, se agrega el \r y \n al final de la linea.
+
+HXD - PROGRAMA PARA CHECKEAR SI ESTOY ESCRIBIENDO BIEN EL ARCHIVO, BYTE X BYTE.
+
+------------------------------------------------------------------------------------------------------------------------
+
+TP3 -> HTML = MODO TEXTO --- ARRAY DE ESTRUCTURAS = BINARIO - .dat o .bin
+
+CODIGO:
+
+Pelicula arrayPeliculas[1000];
+
+EN EL ABM
+
+OPEN 
+fwrite/read(arrayPeliculas, sizeof(Pelicula), 1000, punteroArchivo);  --> FUNCION PARA ESCRIBIR Y LEER EN EL ARCHIVO
+CLOSE
+
+------------------------------------------------------------------------------------------------------------------------
+
+MODO TEXTO -> PARA EL HTML -> fprintf(punteroArchivo, ...); Acá tengo que filtrar los que están ocupados solamente.
+
+arriba.txt -> LEO -> ESCRIBO
+parte del medio
+abajo.txt -> LEO -> ESCRIBO
+
+fscanf
+
+------------------------------------------------------------------------------------------------------------------------
+
+template.html -> Identificar 3 partes (HEADER, PELICULA, FOOTER). 
+- HEADER -> 1 printf (HARDCODEAR en el codigo o imprimir en un archivo y leerlo)
+- PELICULA -> FOR para recorrer todas mis peliculas ocupadas y printf
+- FOOTER -> 1 printf (HARDCODEAR en el codigo o imprimir en un archivo y leerlo)
+
+char* x = "Hola\
+           Chau\
+	   Hola"			
+

@@ -1,0 +1,36 @@
+Si paso un array como parámetro de una función, trabajo directamente sobre el array (pasaje x referencia)
+Si paso un int, se crea una copia del valor de la variable (pasaje x valor)
+
+BIBLIOTECA <string.h> (Cadena de caracteres)
+
+STRLEN
+STRCPY
+GETS
+STRCMP
+STRCAT
+
+
+STRNCPY (recibe el tamaño del array destino)
+STRNLEN 
+STRNCMP                                    DEBERíAMOS USAR ESTAS FUNCIONES (VALIDAN TAMAÑO)
+STRNCAT
+
+TOMAR TODOS LOS DATOS COMO STRING (SCANF) Y, SI HACE FALTA, CONVERTIR A ENTERO (ATOI), FLOAT (ATOF), ETC.
+
+fgets para reemplazar a scanf, se usa en ARCHIVOS.
+scanf ignora el ENTER
+fgets NO lo ignora (cuidado al comparar)
+
+
+ALGORITMOS DE ORDENAMIENTO
+
+Consolidación de lo que venimos haciendo (strings, bucles, etc).
+
+Burbujeo - Ineficiente porque recorre TODO el array TODO el tiempo y lo deja desordenado. NO USAR MÁS!!!
+Burbujeo Eficiente - Por ahora podemos usarlo (temporal)
+Inserción - Ordena en una sola pasada, por lo cual es mejor que los otros dos.
+	    Empiezo en la 2da posición de mi array. Desde donde estoy parado, empiezo a comparar. Guardo el num en un auxiliar y corro las demás posiciones si no se cumple la condición. 
+	    Cuando se cumple, "inserto" mi num en la posición del array correspondiente. (PRACTICAR INSERCIÓN)
+
+
+BIG O algorithm cheat sheet - Indica cuan bueno es el algoritmo (VER) QUICKSORT -> Mejor algoritmo

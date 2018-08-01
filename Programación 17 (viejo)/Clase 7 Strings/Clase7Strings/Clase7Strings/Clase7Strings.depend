@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1491831768 source:c:\users\alumno\desktop\clase 7\clase7strings\clase7strings\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1491832061 source:d:\escritorio\programación 17\clase 7\clase7strings\clase7strings\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

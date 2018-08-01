@@ -1,0 +1,41 @@
+IDENTIFICAR, EN LA RELACION UNO A MUCHOS, CUAL ES UNO Y CUAL MUCHOS Y CREAR LA VARIABLE
+CORRESPONDIENTE. Ej: Un asociado, muchas llamadas:
+
+En Estructura llamadas -> guardar ID ASOCIADO para guardar todas las llamadas del asociado
+
+Si es muchos a muchos, crear una tercera entidad que tenga los dos ids para relacionarlos.
+
+Para asociar 2 estructuras, lo hago en el main // hago un tercer archivo e incluyo ambas
+estructuras para poder asociarlas (busquedas, informes)
+
+ALTA
+PASOS
+1) Inicializar
+2) Obtener index libre para poder guardar los datos (ALTA)
+3) Generar ID 
+
+VER UTN.H!!! LA TENGO EN GITHUB -- HACER GET INT
+
+En val_getNombre, ver que el limite coincida con el tamaño del destino, meter el buffer
+y hacer el ATOI adentro para no tener q andar haciendolo despues
+
+MODIFICAR
+PASOS
+1) Buscar indice por ID (sirve para consultas, baja, modificacion, VALIDAR SI EXISTE EL ID)
+
+ORDENAMIENTOS DENTRO DE UNA ESTRUCTURA - SE PUEDEN HACER EN EL MISMO ARCHIVO DE LA STRUCT
+
+ORDENAMIENTOS Q INCLUYEN AMBAS ESTRUCTURAS:
+HACER EN OTRO ARCHIVO -> ASOCIADOS X CANT LLAMADAS
+
+TRAER ORDENAR X 1 CRITERIO Y X 2 CRITERIOS (numerico, string)
+
+
+INFORMES -> ARCHIVO APARTE 
+
+GUARDAR CASCARA
+
+LA ENTIDAD QUE TIENE EL ID DE LA OTRA ES LA MAS RELEVANTE, RECORRER ESA. (ej. llamada)
+INFORMES -> IMPRIMIR TODO -> FUNCION CLAVEEEE (VER LOGICA DE LA RELACION)
+FILTRADOS // CONTADORES // IFs
+NO HACE FALTA UNA TERCERA ESTRUCTURA PARA IMPRIMIR

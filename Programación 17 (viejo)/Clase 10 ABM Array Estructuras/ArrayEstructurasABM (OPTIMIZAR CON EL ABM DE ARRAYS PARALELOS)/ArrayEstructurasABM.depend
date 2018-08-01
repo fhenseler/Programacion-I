@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1492607965 source:c:\users\alumno\desktop\clase 10\arrayestructurasabm\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1492624293 source:d:\escritorio\programación 17\clase 10\arrayestructurasabm (optimizar con el abm de arrays paralelos)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1492624293 source:d:\escritorio\programación 17\clase 10 abm array estructuras\arrayestructurasabm (optimizar con el abm de arrays paralelos)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

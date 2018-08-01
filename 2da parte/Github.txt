@@ -1,0 +1,58 @@
+git-scm.com -> INSTALAR -> Ingresar comandos por consola
+
+GIT funciona como un curriculum - USAR SIEMPRE
+
+…or create a new repository on the command line
+
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/fhenseler/test.git
+git push -u origin master
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/xxxx/test.git
+git push -u origin master
+
+
+Para borrar -> SETTINGS (dentro del repo) -> DANGER ZONE
+COMANDOS
+
+MI CARPETA SOLO ES UN REPO SI TIENE EL ARCHIVO .GIT
+
+C:\Users\Alumno> git     (help) COMANDO CLAVE
+
+REPOSITORIOS 
+Uno para las Clases y otro para los TPs
+
+C:\Users\Alumno> git init
+
+cd (change directory)
+
+cd..    (ir para atras)
+
+C:\Users\Alumno > cd..
+
+USAR URL DEL REPO DE GITHUB PARA SUBIR DESDE GIT CON CONSOLA
+SEGUIR LOS PASOS DE GITHUB
+
+1- git init
+2- git add -A
+3- git status
+4- git commit -m "----"
+5- git config --global user.email "mi_mail"
+6- git config --global user.name "mi_nombre"
+7- git remote add.....
+8- git push -u origin master
+ 
+PARA HACER NUEVOS COMMITS: ADD -> COMMIT -> PUSH -> PULL 
+
+ADD -> HACE QUE EL ARCHIVO SEA TRACKEADO POR GIT
+COMMIT -> "SACA FOTO" DE MI TRABAJO EN UN MOMENTO DETERMINADO DE MANERA LOCAL
+PUSH -> SUBE MI COMMIT A MI REPOSITORIO EN GITHUB
+
+9- git clone [URL] HACER EN CASA (1 sola vez)
+10- git pull (inverso al PUSH - baja los cambios desde GITHUB)
+
+cheat sheet

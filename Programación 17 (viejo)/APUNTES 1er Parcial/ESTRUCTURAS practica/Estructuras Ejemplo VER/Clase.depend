@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1473290676 source:c:\users\fede\desktop\programación\programación i\estructuras\estructuras ejemplo ver\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

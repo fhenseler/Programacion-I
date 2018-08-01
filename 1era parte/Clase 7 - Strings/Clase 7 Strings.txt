@@ -1,0 +1,10 @@
+strcmpi -> Tiene en cuenta mayúsculas y minúsculas
+strcmp -> No las tiene en cuenta
+stricmp
+Devuelven -1, 0 y 1 dependiendo qué caracter es mayor en ASCII, o si son iguales
+
+PEDIR AL USUARIO TODO COMO STRING!!!
+fgets(buffer, 4096, stdin);       fflush(stdin); PUNTERO A STDIN -> fgets también lo usa!
+
+FUNCIONES isNumber(); isAlpha(); getInt(); CREAR PROPIAS! 
+          atoi(); atof(); -> string a int/float USAR

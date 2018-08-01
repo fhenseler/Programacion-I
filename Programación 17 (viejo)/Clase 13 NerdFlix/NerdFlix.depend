@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1493216852 source:d:\clase 12\nerdflix\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1493393591 source:d:\escritorio\programación 17\clase 12\nerdflix\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1493824196 source:d:\clase 13 fh\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1493824196 source:d:\escritorio\programación 17\clase 13\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1494778942 source:d:\escritorio\programación 17\clase 13 nerdflix\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
+1494035492 source:d:\escritorio\programación 17\clase 13 nerdflix\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"funciones.h"
+
+1494074623 d:\escritorio\programación 17\clase 13 nerdflix\funciones.h
+

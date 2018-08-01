@@ -1,0 +1,10 @@
+j++ vs ++j
+
+i = j++; //Primero asigna el valor de j a i y después incrementa j.
+i = ++j; //Primero incrementa y después asigna el valor.
+
+continue vs break
+
+GNOME SORT -> VER <- www.rosettacode.org (algoritmos de ordenamiento, etc en muchos lenguajes)	
+
+ESTRUCTURAS -> Creación de un nuevo tipo de dato. Agrupación de datos de distinto tipo.

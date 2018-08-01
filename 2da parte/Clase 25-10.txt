@@ -1,0 +1,50 @@
+TP4 - Sólo usar MAIN.C y ARRAYLIST.H
+
+HACER EN ORDEN!!!
+
+TRABAJAR EN ARRAYLIST.C (HACER FUNCIONES)
+
+ARREGLAR LAS FUNCIONES PRIVADAS -> STATIC!!
+resizeup -> hace crecer el arraylist en 10 elementos (agrandar y achicar de a 10)
+expand -> hacer lugar libre entre 2 elementos para posicionar un nuevo elemento
+contract -> sacar un elemento y contraer el array
+
+
+FUNCIONES 
+al_newArrayList -> reservo espacio en memoria para 10 punteros arrayList
+
+arrayList tiene 3 variables: size, rsize, pElements + funciones que le dan sentido al array
+
+arrayList -> array de punteros (de cualquier tipo) 
+dinamico que crece y se achica -> indexacion
+
+1 arrayList POR CADA ENTIDAD
+
+TODO DINAMICO, NADA ESTATICO, ABM PARA TODO!!!!
+
+al_add -> AGREGAMOS LOS ELEMENTOS EN LA POSICION "SIZE"
+
+cuando size == reserved size, hay que redimensionar.
+
+resizeup -> realloc -> SIEMPRE USAR UN AUX!!!
+
+len-> devuelve cant. de elementos cargados
+
+void** pElements apunta a un array de punteros void* de tamaño reservedSize
+
+USAR FGETS para leer archivos separados por comas (como el que está en el ejemplo)
+fgets lee x linea (ideal para este caso)
+
+Función parse para leer linea x linea e ir cargando en el arrayList <- CLAVE
+ALTA: Por cada empleado, new -> cargo datos -> add
+
+NO ACCEDER A LOS CAMPOS DEL ARRAYLIST PARA USARLOS (SIEMPRE FUNCIONES)!!!
+
+POP -> RECUPERA EL PUNTERO AL ELEMENTO QUE SE ENCUENTRA EN EL INDICE (MEDIANTE UN AUX),
+Y LUEGO LO REMUEVE (FUNCION REMOVE)
+
+
+sublist: auxiliar lista nueva -> new -> get -> add  (for)
+sort: switch y case segun el orden, pFunc puntero a funcion ("funcion criterio")
+	donde establezco el criterio
+      (esta funcion no hay que desarrollarla x ahora)

@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1506640162 source:c:\users\alumno\desktop\esqueletoparcial\entidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Entidad.h"
+	"Validar.h"
+
+1506645486 c:\users\alumno\desktop\esqueletoparcial\entidad.h
+
+1506639996 source:c:\users\alumno\desktop\esqueletoparcial\entidad2.c
+	<stdio.h>
+	<stdlib.h>
+	"Entidad2.h"
+
+1506638067 c:\users\alumno\desktop\esqueletoparcial\entidad2.h
+
+1506642293 source:c:\users\alumno\desktop\esqueletoparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Entidad.h"
+	"Entidad2.h"
+	"Validar.h"
+
+1506639498 source:c:\users\alumno\desktop\esqueletoparcial\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+
+1506639497 c:\users\alumno\desktop\esqueletoparcial\validar.h
+
+1506729914 source:d:\escritorio\clasesprog\esqueletoparcial\entidad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Entidad.h"
+	"Validar.h"
+
+1506729914 d:\escritorio\clasesprog\esqueletoparcial\entidad.h
+
+1506729914 d:\escritorio\clasesprog\esqueletoparcial\validar.h
+
+1506729914 source:d:\escritorio\clasesprog\esqueletoparcial\entidad2.c
+	<stdio.h>
+	<stdlib.h>
+	"Entidad2.h"
+
+1506729914 d:\escritorio\clasesprog\esqueletoparcial\entidad2.h
+

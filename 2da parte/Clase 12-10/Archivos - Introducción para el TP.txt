@@ -1,0 +1,38 @@
+TP 3:
+- Archivo de Texto
+- Impresión en formato HTML
+- Parte dinámica (TABLA) / parte estática (HTML)
+
+Para la parte estática se puede hardcodear el string de texto o copiar a un archivo y leerlo
+con fgets.
+
+1ra parte -> HARDCODEO
+2da parte -> FOR + fprintf
+3ra parte -> HARDCODEO
+
+Abrir archivo, ver que no sea NULL y usar fprintf. NO ABRIR ARCHIVOS PARA ESCRIBIR
+QUE YA ESTEN ABIERTOS PORQUE SE PISA EL ARCHIVO ANTERIOR Y SE CREA UNO VACIO!!!
+
+fprintf (USAR, CLAVE)
+
+fread no sirve mucho para archivos de texto por los saltos de línea.
+USAR FGETS!!
+
+HACER FOR DE 100, abrir archivo.txt, con el for imprimir con fprintf 
+el valor de i en el archivo
+
+
+Powerpoint ARCHIVOS:
+Puntero a FILE* -> FILE* fopen(path -relativo o absoluto-, modo de apertura)
+Chequear que los archivos estén abiertos correctamente.
+
+Modos de apertura (TABLA): read, write, append, r/w.
+
+
+ARCHIVOS BINARIOS -> SERIALIZAR -> Enviar a un archivo la info que tengo en RAM. Está cayendo
+en desuso por problemas de compatibilidad, y son difíciles de modificar.
+Los archivos binarios se leen como basura (caracteres random) en un notepad.
+
+Las extensiones de los archivos no son importantes. Sólo sirven al usuario para que pueda
+distinguir, pero la información que contienen puede ser diferente.
+

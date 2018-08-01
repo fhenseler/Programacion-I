@@ -1,0 +1,2 @@
+Usuarios: “id,nombre,email,sexo,pais,password,ip_address”
+Temas: “Id,nombre_tema,artista”

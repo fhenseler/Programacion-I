@@ -1,0 +1,14 @@
+ARRAYS
+
+El nombre del array es un puntero al primer elemento del array.
+En strings (array de char) el array termina en '\0'.
+No escribir en una posición fuera de mi array estático. Hacer un DEFINE del tamaño del array (ej. cantidad empleados).
+
+&array[0]== array (dirección de memoria del array)
+
+FUNCIONES
+
+Todo lo que está MAL se retorna con NEGATIVOS.
+Todo lo que está BIEN se retorna con 0.
+
+Cuando paso un array (puntero) como parámetro, PASAR TAMBIÉN LA CANT. MÁXIMA DE ELEMENTOS DE ESE ARRAY.

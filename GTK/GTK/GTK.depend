@@ -1,0 +1,4 @@
+# depslib dependency file v1.0
+1513944201 source:d:\escritorio\gtk\gtk\main.c
+	<gtk/gtk.h>
+

@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1511387562 source:c:\users\alumno\desktop\practica\practica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1511387562 c:\users\alumno\desktop\practica\practica\arraylist.h
+
+1511391431 source:c:\users\alumno\desktop\practica\practica\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1511391439 c:\users\alumno\desktop\practica\practica\employee.h
+
+1511394200 source:c:\users\alumno\desktop\practica\practica\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+	"Employee.h"
+
+1511396733 source:d:\clasesprog\practica 22-11\practica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+
+1511396066 d:\clasesprog\practica 22-11\practica\arraylist.h
+
+1511398283 source:d:\clasesprog\practica 22-11\practica\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1511397557 d:\clasesprog\practica 22-11\practica\employee.h
+
+1511398947 source:d:\clasesprog\practica 22-11\practica\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+	"Employee.h"
+

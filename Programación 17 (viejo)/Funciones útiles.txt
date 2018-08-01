@@ -1,0 +1,5 @@
+getch(); 
+getche();
+system("cls");
+system("pause");
+fflush(stdin);

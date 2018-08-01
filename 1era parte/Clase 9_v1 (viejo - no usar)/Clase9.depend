@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1505347279 source:d:\clase9\main.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+
+1505347184 d:\clase9\producto.h
+
+1505347200 source:d:\clase9\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"validar.h"
+
+1505346355 d:\clase9\validar.h
+
+1505346214 source:d:\clase9\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1505358116 source:d:\escritorio\clasesprog\clase 9_v1 (viejo - no usar)\empleado.c
+
+1505358116 source:d:\escritorio\clasesprog\clase 9_v1 (viejo - no usar)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"producto.h"
+
+1505358116 d:\escritorio\clasesprog\clase 9_v1 (viejo - no usar)\producto.h
+
+1505358116 source:d:\escritorio\clasesprog\clase 9_v1 (viejo - no usar)\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+	"validar.h"
+
+1505358116 d:\escritorio\clasesprog\clase 9_v1 (viejo - no usar)\validar.h
+
+1505358116 source:d:\escritorio\clasesprog\clase 9_v1 (viejo - no usar)\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+

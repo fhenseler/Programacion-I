@@ -1,0 +1,35 @@
+void Lista(EPersona arrayPersonas[], int LEN)
+{
+    int i;
+    int j;
+    EPersona aux;
+    for(i = 0; i < LEN -1; i++)
+    {
+        if(arrayPersonas[j].dni == -1)
+        {
+            continue;
+        }
+        for(j = i+1; j < LEN; j++)
+        {
+            if(arrayPersonas[j].dni == -1)
+            {
+                continue;
+            }
+            if(strcmp(arrayPersonas[i].nombre, arrayPersonas[j].nombre)> 0)
+            {
+                aux = arrayPersonas[j];
+                arrayPersonas[j] = arrayPersonas[i];
+                arrayPersonas[i] = aux;
+            }
+        }
+    }
+               for(i = 0; i < LEN; i++)
+                {
+                    if(arrayPersonas[i].dni != -1)
+                    {
+                        printf("\n%s - %d - %ld", arrayPersonas[i].nombre, arrayPersonas[i].edad, arrayPersonas[i].dni);
+                    }
+                }
+                        getch();
+                        return;
+}

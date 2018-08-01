@@ -1,0 +1,12 @@
+- No cambiar el valor base de un puntero.
+- Puedo pasarle a una función una dirección dentro del array como si fuera la primera para
+trabajar sobre una parte del array.
+- No hacer punteroChar[4] = 'x'; por el scope de la variable
+           *(arrayChar+4) = 'x'; otra mala forma
+
+	  *(punteroChar+4) = 'x'; manera correcta
+          arrayChar[4]
+
+		
+ESTRUCTURAS
+puntero->campo1 = 33;

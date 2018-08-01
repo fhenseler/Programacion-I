@@ -1,0 +1,35 @@
+Get - set
+
+fscanf(archivo, tipo de dato a leer, variable donde guardo los datos leidos)
+fscanf(pFile, "%d, %d, %d\n", &var1, &var2, &var3);
+
+"%d" = [0,9]
+"%s" = [a-z, A-Z] (no incluye SPACE, por eso el scanf falla al guardar nombre+apellido)
+
+[ ] -> sirven para definir grupos de caracteres
+
+^ -> acento circunflexo - sirve para definir lo que NO quiero leer (SEPARADOR)
+
+A veces conviene especificar qué buscar y otras qué NO buscar:
+"%[^,]" -> leer todo lo que está en la tabla ASCII excepto la coma
+
+fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",var1,var2,var3,var4);
+
+DESCRIBIR EL MISMO FORMATO QUE VOY A LEER!
+Leer todo y despues validar
+
+
+
+PARCIAL -> NOS DAN CASCARA, PARSEAR UN ARCHIVO DE 1000 COSAS SEPARADAS POR
+ALGUN DELIMITADOR.
+
+INTERVENCION DEL ARRAYLIST: AGREGARLE UNA NUEVA FUNCION
+
+EJEMPLO: al_map(Arraylist* list, void(*fn)(void*))
+Recorre y cada elemento del arraylist llama a la funcion y se lo pasa, la funcion
+hace algo sobre ese elemento.
+
+Funcion: void(Arraylist* list)
+
+Evita hacer un for y la funcion adentro... Sirve para dar formato y hacer actualizaciones
+masivas.

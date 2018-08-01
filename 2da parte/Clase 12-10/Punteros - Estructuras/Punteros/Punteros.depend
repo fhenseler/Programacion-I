@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1507856450 source:d:\clasesprog\2da parte\clase 12-10\punteros - estructuras\punteros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1507856392 source:d:\clasesprog\2da parte\clase 12-10\punteros - estructuras\punteros\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1507857334 d:\clasesprog\2da parte\clase 12-10\punteros - estructuras\punteros\funciones.h
+
+1507854379 d:\clasesprog\2da parte\clase 12-10\punteros - estructuras\punteros\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1507863204 source:d:\escritorio\clasesprog\2da parte\clase 12-10\punteros - estructuras\punteros\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1507863204 d:\escritorio\clasesprog\2da parte\clase 12-10\punteros - estructuras\punteros\funciones.h
+
+1507863204 source:d:\escritorio\clasesprog\2da parte\clase 12-10\punteros - estructuras\punteros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

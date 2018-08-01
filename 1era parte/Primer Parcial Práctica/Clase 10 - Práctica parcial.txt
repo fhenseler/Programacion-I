@@ -1,0 +1,30 @@
+PARCIAL
+
+ALTA
+Hardcodear datos para el alta
+Función para ID incrementable (puede hacerse buscando un máximo)
+Función para imprimir el array
+
+ALTA LLAMADA (NUEVA LLAMADA) - Funciona como un ALTA (busca lugar libre, etc),
+pero relacionada con la otra estructura (ID ASOCIADO)
+
+Pedir ID de asociado y motivo
+2 validaciones 1) Que el asociado sea un int, 2) Ver si el entero existe en el array de IDs
+(en la estructura asociado) 
+
+INFORMES
+Intentar definir en las estructuras datos que me sirvan para resolverlos
+
+SOLO DAR DE BAJA ASOCIADOS QUE <NO> TENGAN LLAMADAS (INHABILITAR PERO NO DAR DE BAJA)
+
+PASOS EN CLASE
+FUNCIONES
+0) Separar en archivos (asociados, llamadas, validar)
+1) Alta asociado
+2) Calcular próximo ID
+3) Validar si existe el ID (buscar índice por ID)
+
+LLAMADAS - ID Autoincrementable
+EMERGENCIAS - ID ingresado x usuario (hardcodeado)
+
+Ordenar e imprimir asociados por más de un criterio (HACER)

@@ -1,0 +1,47 @@
+Cuál es el motivo con más llamadas? (sólo en llamadas):
+1 contador por cada motivo. Recorro array de llamadas y si encuentro el motivo
+le sumo 1 al contador. (Array de motivos)
+Evaluar si la llamada está completada. Informar todos los que son mas usados (1, 2 o los 3)
+
+Nombre y apellido del asociado con mas reclamos:
+Flag de estado -> Llamada cerrada
+Hacer un array (multicontador, tan grande como la cantidad de usuarios, inicializar en 0) que cuente cuantas veces llamo c/u.
+Buscar los maximos. Acceder a la otra estructura y sacar la info con el ID.
+
+
+Ordenar x nombre
+sAsociado arrayAsociados[500];
+sAsociado auxiliar;
+
+...
+
+i,j
+...
+
+if(strcmp(arrayAsociados[i].nombre, arrayAsociados[i+1].nombre)>0))
+{
+    auxiliar = arrayAsociados[i];
+    arrayAsociados[i] = arrayAsociados[i+1];   //SWAP
+    arrayAsociados[i+1] = auxiliar;
+}
+
+...
+
+PRACTICA PRIMER PARCIAL -> ZIP Y PDF -> TESTEO
+
+static int id = -1; //Generar ID autoincrementable
+int emerg_proximoID(void)
+{
+    id = id+1; 
+    return id;	
+}
+
+VALIDACIONES - HACER!!
+
+RELACION ENTRE ESTRUCTURAS - ID ASOCIADO  (estructura asociado - llamadas) 
+1 asociado, muchas llamadas -> uno a muchos
+
+En sAsociado -> Id Asociado irrepetible
+En sLlamadas -> Id Asociado puede aparecer 0, 1 o muchas veces (depende cuantas veces llame)
+
+Pedir ID y verificar que exista

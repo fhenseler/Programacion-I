@@ -1,0 +1,202 @@
+# depslib dependency file v1.0
+1505511299 source:d:\escritorio\primer parcial práctica\primerparcialpractica\genericas.c
+
+1505514089 source:d:\escritorio\primer parcial práctica\primerparcialpractica\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+
+1505494530 d:\escritorio\primer parcial práctica\primerparcialpractica\validar.h
+
+1505522449 source:d:\escritorio\primer parcial práctica\primerparcialpractica\emergencias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Emergencias.h"
+
+1505517795 d:\escritorio\primer parcial práctica\primerparcialpractica\emergencias.h
+
+1505514153 source:d:\escritorio\primer parcial práctica\primerparcialpractica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Validar.h"
+	"Emergencias.h"
+
+1506546785 source:d:\clasesprog\primer parcial práctica\primerparcialpractica\emergencias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Emergencias.h"
+
+1507152656 d:\clasesprog\primer parcial práctica\primerparcialpractica\validar.h
+
+1506550485 d:\clasesprog\primer parcial práctica\primerparcialpractica\emergencias.h
+
+1507158237 source:d:\clasesprog\primer parcial práctica\primerparcialpractica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Validar.h"
+	"Asociados.h"
+	"Llamadas.h"
+	"Informes.h"
+
+1507152656 source:d:\clasesprog\primer parcial práctica\primerparcialpractica\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+
+1507157030 source:d:\clasesprog\primer parcial práctica\primerparcialpractica\llamadas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Llamadas.h"
+
+1507159541 d:\clasesprog\primer parcial práctica\primerparcialpractica\llamadas.h
+	"Asociados.h"
+
+1505953716 source:d:\clasesprog\primer parcial práctica\primerparcialpractica\ambulancias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Ambulancias.h"
+
+1505953463 d:\clasesprog\primer parcial práctica\primerparcialpractica\ambulancias.h
+	"Llamadas.h"
+
+1505953920 d:\clasesprog\primer parcial práctica\primerparcialpractica\emergencias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Emergencias.h"
+
+1507048845 source:d:\escritorio\clasesprog\primer parcial práctica\primerparcialpractica\emergencias.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Emergencias.h"
+
+1506969990 d:\escritorio\clasesprog\primer parcial práctica\primerparcialpractica\validar.h
+
+1507048376 d:\escritorio\clasesprog\primer parcial práctica\primerparcialpractica\emergencias.h
+
+1507217442 source:d:\escritorio\clasesprog\primer parcial práctica\primerparcialpractica\llamadas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Llamadas.h"
+
+1507213510 d:\escritorio\clasesprog\primer parcial práctica\primerparcialpractica\llamadas.h
+	"Asociados.h"
+
+1507217000 source:d:\escritorio\clasesprog\primer parcial práctica\primerparcialpractica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Validar.h"
+	"Asociados.h"
+	"Llamadas.h"
+	"Informes.h"
+
+1506970290 source:d:\escritorio\clasesprog\primer parcial práctica\primerparcialpractica\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+
+1507211816 source:d:\escritorio\clasesprog\primer parcial práctica\primerparcialpractica\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Asociados.h"
+	"Informes.h"
+
+1507219937 d:\escritorio\clasesprog\primer parcial práctica\primerparcialpractica\informes.h
+	"Asociados.h"
+	"Llamadas.h"
+
+1507219069 source:d:\escritorio\clasesprog\primer parcial práctica\primerparcialpractica\asociados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Asociados.h"
+
+1507216882 d:\escritorio\clasesprog\primer parcial práctica\primerparcialpractica\asociados.h
+
+1507152656 source:d:\clasesprog\primer parcial práctica\primerparcialpractica\asociados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Asociados.h"
+
+1507152656 d:\clasesprog\primer parcial práctica\primerparcialpractica\asociados.h
+
+1507153413 source:d:\clasesprog\primer parcial práctica\primerparcialpractica\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Asociados.h"
+	"Informes.h"
+
+1507152656 d:\clasesprog\primer parcial práctica\primerparcialpractica\informes.h
+	"Asociados.h"
+	"Llamadas.h"
+
+1507863203 source:d:\escritorio\clasesprog\1era parte\primer parcial práctica\primerparcialpractica\asociados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Asociados.h"
+
+1507863203 d:\escritorio\clasesprog\1era parte\primer parcial práctica\primerparcialpractica\validar.h
+
+1507863203 d:\escritorio\clasesprog\1era parte\primer parcial práctica\primerparcialpractica\asociados.h
+
+1507863203 source:d:\escritorio\clasesprog\1era parte\primer parcial práctica\primerparcialpractica\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Asociados.h"
+	"Informes.h"
+
+1507863203 d:\escritorio\clasesprog\1era parte\primer parcial práctica\primerparcialpractica\informes.h
+	"Asociados.h"
+	"Llamadas.h"
+
+1507863203 d:\escritorio\clasesprog\1era parte\primer parcial práctica\primerparcialpractica\llamadas.h
+	"Asociados.h"
+
+1507863203 source:d:\escritorio\clasesprog\1era parte\primer parcial práctica\primerparcialpractica\llamadas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+	"Llamadas.h"
+
+1507863203 source:d:\escritorio\clasesprog\1era parte\primer parcial práctica\primerparcialpractica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Validar.h"
+	"Asociados.h"
+	"Llamadas.h"
+	"Informes.h"
+
+1507863203 source:d:\escritorio\clasesprog\1era parte\primer parcial práctica\primerparcialpractica\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+

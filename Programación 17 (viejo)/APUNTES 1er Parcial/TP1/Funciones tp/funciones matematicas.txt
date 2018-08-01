@@ -1,0 +1,74 @@
+double add(double a, double b); //FUNCIÓN SUMA
+double sub(double a, double b); //FUNCIÓN RESTA
+double divi(double a, double b); //FUNCIÓN DIVISIÓN
+double mult(double a, double b); //FUNCIÓN MULTIPLICACIÓN
+
+
+
+/**
+ * \brief Realiza la suma entre dos números y devuelve el resultado.
+ * \param double a Primer número a sumar.
+ * \param double b Segundo número a sumar.
+ * \return Devuelve el resultado de la suma entre dos números.
+ */
+double add(double a, double b)
+{
+    double result = a + b;
+    return result;
+}
+
+
+/**
+ * \brief Realiza la resta entre dos números y devuelve el resultado.
+ * \param double a Primer número a restar (minuendo).
+ * \param double b Segundo número a restar (sustraendo).
+ * \return Devuelve el resultado de la resta entre dos números.
+ */
+double sub(double a, double b)
+{
+    double result = a - b;
+    return result;
+}
+
+
+/**
+ * \brief Realiza la división entre dos números y devuelve el resultado.
+ * \param double a Primer número a dividir (numerador).
+ * \param double b Segundo número a dividir (denominador).
+ * \return Devuelve el resultado de la división entre dos números.
+ */
+double divi(double a, double b)
+{
+    double result = a / (double)b;
+    return result;
+}
+
+
+
+/**
+ * \brief Realiza la multiplicación entre dos números y devuelve el resultado.
+ * \param double a Primer número a multiplicar.
+ * \param double b Segundo número a multiplicar.
+ * \return Devuelve el resultado de la multiplicación entre dos números.
+ */
+double mult(double a, double b)
+{
+    double result = a * b;
+    return result;
+}
+
+
+/**
+ * \brief Calcula el factorial de un número y devuelve el resultado.
+ * \param double a Número al que se le calculará el factorial.
+ * \return Devuelve el factorial del número.
+ */
+unsigned long factorial(double a)
+{
+    int i, sum = 1;
+        for (i = a; i > 0; i--)
+        {
+            sum *= i;
+        }
+            return sum;
+}

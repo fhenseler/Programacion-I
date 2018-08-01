@@ -1,0 +1,31 @@
+El ID más chico es 0. Buscamos si hay alguno más grande que 0.
+Devuelve (ID máximo + 1)
+
+
+int prod_buscarId(sProducto* arrayProducto, int longitud)
+{
+	int i;
+	int idMax = -1;
+	if(arrayProducto != NULL && longitud > 0)    
+	{
+ 	    for(i = 0; i < longitud; i++)
+	    {
+	    	if(arrayProducto[i].estado == PRODUCTO_OCUPADO)
+	    	{
+		    if(idMax < arrayProducto[i].id)
+		    {
+			idMax = arrayProducto[i].id;
+		    }
+		}
+	    }
+        }				
+
+			return idMax + 1;
+
+
+
+VER PARCIALES MAS NUEVOS (CUATRI PASADO CLAVE)
+
+HACER PARCIAL AMBULANCIA! TRAER HECHO
+
+HACER BAJA MODIFICANDO ESTADO A LIBRE

@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1508521692 source:d:\escritorio\tp3\tp_3_cascara\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Movies.h"
+	"Validar.h"
+
+1508521692 d:\escritorio\tp3\tp_3_cascara\tp_3_cascara\movies.h
+
+1508515755 source:d:\escritorio\tp3\tp_3_cascara\tp_3_cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+
+1507300464 d:\escritorio\tp3\tp_3_cascara\tp_3_cascara\validar.h
+
+1508523242 source:d:\escritorio\tp3\tp_3_cascara\tp_3_cascara\movies.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Movies.h"
+	"Validar.h"
+
+1508521692 source:d:\escritorio\tp_laboratorio_1\tp3\tp_3_cascara\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Movies.h"
+	"Validar.h"
+
+1508521692 d:\escritorio\tp_laboratorio_1\tp3\tp_3_cascara\tp_3_cascara\movies.h
+
+1507300464 d:\escritorio\tp_laboratorio_1\tp3\tp_3_cascara\tp_3_cascara\validar.h
+
+1508524240 source:d:\escritorio\tp_laboratorio_1\tp3\tp_3_cascara\tp_3_cascara\movies.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Movies.h"
+	"Validar.h"
+
+1508515755 source:d:\escritorio\tp_laboratorio_1\tp3\tp_3_cascara\tp_3_cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validar.h"
+

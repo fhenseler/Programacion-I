@@ -1,0 +1,23 @@
+GESTION DE MEMORIA DINAMICA -> ARRAY DE PUNTEROS (a estructuras - operador flecha)
+
+Funciones SET y GET (campos de la estructura) -> CLAVE - Se puede hacer una aplicación para automatizar los SET y GET
+El GET devuelve el tipo de dato que busca. En el caso de STRINGS, devuelve un PUNTERO a la cadena.
+
+NEW / DELETE (entidad) Ej: newPersona 
+
+TP 3: Recorrer array de peliculas y copiar los pedazos de texto en el HTML.
+
+index.html -> 1* texto fijo 2* FOR Y SPRINTF 3* texto fijo
+
+Funcion "GENERAR HTML" q reciba como parametro el array de peliculas, recorrerlo y escribir entre los 2 bloques de texto fijo.
+Escribir en archivo binario el arraylist por medio del puntero. (Y leer)
+
+PUNTERO GENERICO -> No importa el tipo de dato al que apunta (solo me interesan las posiciones de memoria,
+o sea que puede apuntar a cualquier tipo de dato - COMODIN)
+
+ARRAYLIST
+new
+add
+resize
+
+

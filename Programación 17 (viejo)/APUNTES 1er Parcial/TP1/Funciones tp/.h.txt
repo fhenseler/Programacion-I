@@ -1,0 +1,12 @@
+#ifndef FUNCIONES_H_INCLUDED
+#define FUNCIONES_H_INCLUDED
+
+//PROTOTIPOS
+int menu(float a, float b); //Función menú
+int add(int a, int b); //Función sumar
+int sub(int a, int b); //Función restar
+float divi(int a, int b); //Función dividir
+int mul(int a, int b); //Función multiplicar
+int factorial(int a); //Función factorial
+
+#endif // FUNCIONES_H_INCLUDED

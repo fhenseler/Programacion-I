@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1503531079 source:c:\users\alumno\clasesprog\clase 3\clase 3\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1503533704 source:c:\users\alumno\clasesprog\clase 3\clase 3\main2.c
+	<stdio.h>
+	<stdlib.h>
+
+1503611943 source:c:\clasesprog\clase 3\clase 3\main2.c
+	<stdio.h>
+	<stdlib.h>
+
+1504721087 source:d:\escritorio\clasesprog\clase 3 - funciones\clase 3\main2.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1504721087 source:d:\escritorio\clasesprog\clase 3 - funciones\clase 3\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1504721091 d:\escritorio\clasesprog\clase 3 - funciones\clase 3\funciones.h
+

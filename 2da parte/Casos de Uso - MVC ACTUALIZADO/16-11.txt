@@ -1,0 +1,9 @@
+SocioServicio -> RELACIONAR LAS 2 ENTIDADES EN UNA TERCERA ENTIDAD
+
+SS -> Alta: Verificar: SOCIO ACTIVO, SERVICIO ACTIVO y RELACION SOCIO SERVICIO NO ACTIVA!!!
+
+Funcion para buscar ambos ID (socio y servicio) y ver que esten activos
+
+
+PARA PARCIAL - PREPARAR FUNCION FILTER basada en subList
+VER AL DE JAVASCRIPT Y VER LAS FUNCIONES

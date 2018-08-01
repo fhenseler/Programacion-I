@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1474680254 source:c:\users\fede\desktop\tp2\functions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"functions.h"
+
+1474686444 c:\users\fede\desktop\tp2\functions.h
+
+1474680262 source:c:\users\fede\desktop\tp2\functions2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"functions.h"
+
+1474686794 source:c:\users\fede\desktop\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"functions.h"
+

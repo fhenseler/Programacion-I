@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1507863204 source:d:\escritorio\clasesprog\2da parte\clase punteros 11-10\punteros\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

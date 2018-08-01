@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1508371382 source:d:\clasesprog\2da parte\clase 18-10\memoriadinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+
+1508370752 source:d:\clasesprog\2da parte\clase 18-10\memoriadinamica\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+
+1508368474 d:\clasesprog\2da parte\clase 18-10\memoriadinamica\empleado.h
+

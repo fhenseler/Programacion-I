@@ -1,0 +1,25 @@
+Funciones del mismo tipo en un mismo archivo. Hacer archivos separados para distintas funcionalidades.
+
+BIBLIOTECAS
+
+calculadora() -> Calculadora.c } BIBLIOTECA CALCULADORA
+getInt/Float/etc() -> Consola.c } BIBLIOTECA CONSOLA (se usa en casi todos / todos los proyectos)
+main() -> main.c  - El main usa los demás .c (includes)	} PROGRAMA QUE HACE USO DE LAS BIBLIOTECAS
+
+No dejar defines en el main (defines y prototipos en el .h), hacer include de los demás archivos.
+#include "Calculadora.h" -> EJEMPLO. Comillas para bibliotecas que no son parte del compilador (bibliotecas propias) y <> para las que sí son parte (estándar)
+
+
+Calculadora.h
+#ifndef CALCULADORA_H_INCLUDED
+#define CALCULADORA_H_INCLUDED
+
+...
+
+#endif //CALCULADORA_H_INCLUDED	
+
+
+WARNING: implicit declaration of function... (NO ESTÁ EL PROTOTIPO)
+static int funcionAux(float a, int b);  -> el STATIC hace que la función sólo sea visible en el archivo en el que está declarada. (privada)
+
+Cantidad de intentos (preguntar si quiere seguir), mensaje, mensaje de error como parámetros de mis funciones

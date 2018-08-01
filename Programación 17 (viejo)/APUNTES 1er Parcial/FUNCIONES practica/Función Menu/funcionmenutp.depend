@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1474228653 source:c:\users\fede\desktop\programación\programación i\funciones\función menu\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1474228660 source:c:\users\fede\desktop\programación\programación i\funciones\función menu\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1474050982 c:\users\fede\desktop\programación\programación i\funciones\función menu\funciones.h
+

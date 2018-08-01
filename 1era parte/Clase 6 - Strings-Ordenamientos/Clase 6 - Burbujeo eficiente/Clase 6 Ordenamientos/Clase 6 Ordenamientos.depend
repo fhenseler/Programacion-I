@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1504226254 source:c:\users\alumno\clasesprog\clase 6 - strings\clase 6 - burbujeo eficiente\clase 6 ordenamientos\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1504226427 source:c:\users\alumno\clasesprog\clase 6 - strings\clase 6 - burbujeo eficiente\clase 6 ordenamientos\lib.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+
+1504226253 c:\users\alumno\clasesprog\clase 6 - strings\clase 6 - burbujeo eficiente\clase 6 ordenamientos\lib.h
+
+1504270768 source:d:\escritorio\clasesprog\clase 6 - strings-ordenamientos\clase 6 - burbujeo eficiente\clase 6 ordenamientos\lib.c
+	<stdio.h>
+	<stdlib.h>
+	"lib.h"
+
+1504270768 d:\escritorio\clasesprog\clase 6 - strings-ordenamientos\clase 6 - burbujeo eficiente\clase 6 ordenamientos\lib.h
+
+1504270768 source:d:\escritorio\clasesprog\clase 6 - strings-ordenamientos\clase 6 - burbujeo eficiente\clase 6 ordenamientos\main.c
+	<stdio.h>
+	<stdlib.h>
+

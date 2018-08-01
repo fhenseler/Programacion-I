@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1496068636 source:d:\clase 18\clase18\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1496068711 source:d:\clase 18 constructores\clase18\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
